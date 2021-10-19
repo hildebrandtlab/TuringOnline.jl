@@ -1,4 +1,4 @@
-module online
+module TuringOnline
   import Setfield as sfl
   import DynamicPPL as ppl
   import Turing as tur
