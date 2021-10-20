@@ -286,7 +286,7 @@ module online
     
     # create particles and convert to chain
     particles = convertChainToParticles(chain,model_new_data,sampler)
-    oldChain = convertParticlesToChain(particles)
+    #oldChain = convertParticlesToChain(particles)
     
     # update particles and convert to chain
     Threads.@threads for j in 1:length(particles)       
@@ -294,7 +294,7 @@ module online
     end
     updatedChain = convertParticlesToChain(particles)
     
-    return updatedChain,oldChain
+    return updatedChain#,oldChain
   end
 
 end
