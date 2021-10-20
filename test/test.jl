@@ -5,7 +5,7 @@ import Turing as tur
 import AdvancedPS as aps
 import DynamicPPL as ppl
 rng = rnd.seed!(1)
-include("./TuringOnline.jl")
+include("../src/TuringOnline.jl")
 using .online
 
 tst.@testset "Parse symbols" begin
