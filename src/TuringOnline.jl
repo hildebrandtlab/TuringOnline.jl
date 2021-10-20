@@ -97,7 +97,7 @@ module online
         
             # set value in varinfo
             varinfo = sfl.@set varinfo.metadata[key].vals = particleCoord
-            #setval!(vi::VarInfo, val, vn::VarName)
+            #ppl.setval!(varinfo, particleCoord, name)
 
        end 
 
