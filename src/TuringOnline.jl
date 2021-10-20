@@ -1,4 +1,4 @@
-module TuringOnline
+module online
   import Setfield as sfl
   import DynamicPPL as ppl
   import Turing as tur
@@ -289,7 +289,9 @@ module TuringOnline
     oldChain = convertParticlesToChain(particles)
     
     # update particles and convert to chain
-    logevidence = aps.sweep!(rng, particles, sampler.alg.resampler)
+    Threads.@threads for j in 1:length(particles)       
+      logevidence = aps.sweep!(rng, particles[j], sampler.alg.resampler)
+    end
     updatedChain = convertParticlesToChain(particles)
     
     return updatedChain,oldChain
