@@ -4,7 +4,7 @@ import .online as online
 
 Documenter.makedocs(
   root = "../",
-  source = "src",
+  source = "TuringOnline.jl/src",
   build = "build",
   modules = Module[online],
   clean = true,
