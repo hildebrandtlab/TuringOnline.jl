@@ -12,3 +12,7 @@ Documenter.makedocs(
   pages = ["Index" => "index.md"],
   sitename = "TuringOnline.jl"  	
 )
+
+deploydocs(
+    repo = "github.com/KonstantinBob/TuringOnline.jl.git",
+)
