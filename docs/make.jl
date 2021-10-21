@@ -10,7 +10,7 @@ Documenter.makedocs(
   clean = true,
   doctest = true,
   pages = ["Index" => "index.md"],
-  sitename = "TuringOnline.jl"  	
+  sitename = "TuringOnline.jl"
 )
 
 deploydocs(

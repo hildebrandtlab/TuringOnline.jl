@@ -1,5 +1,12 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+AdvancedPS = "576499cb-2369-40b2-a588-c64705576edc"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+DynamicPPL = "366bfd00-2699-11ea-058f-f148b4cae6d8"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
 [compat]
 Documenter = "0.27"
