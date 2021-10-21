@@ -57,7 +57,7 @@ module online
   end
 
   """
-          changeParticleCoordinates(varinfo::ppl.VarInfo{<:NamedTuple},chainPoster::tur.MCMCChains.Chains,chainPrior,indexParticle::Int64,indexChain::Int64)
+      changeParticleCoordinates(varinfo::ppl.VarInfo{<:NamedTuple},chainPoster::tur.MCMCChains.Chains,chainPrior,indexParticle::Int64,indexChain::Int64)
 
   Reads particle coordinates from chainPoster or chainPrior and sets them in the varinfo.
   """
