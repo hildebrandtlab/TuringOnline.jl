@@ -15,4 +15,5 @@ Documenter.makedocs(
 
 deploydocs(
     repo = "github.com/KonstantinBob/TuringOnline.jl.git",
+    devbranch = "main"
 )
